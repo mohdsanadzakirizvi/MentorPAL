@@ -1,0 +1,8 @@
+name: mentorpal-k8s
+channels:
+    - conda-forge
+    - anaconda-platform
+dependencies:
+    - python=3.6
+    - pip
+    - kubectl

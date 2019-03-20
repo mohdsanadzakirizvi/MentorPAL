@@ -5,7 +5,8 @@ KUBERNETES_DIR=${1:-./build/kubernetes}
 minikube stop
 minikube delete
 
-minikube start --vm-driver=hyperkit
+# minikube start --vm-driver=hyperkit
+minikube start --vm-driver=virtualbox
 
 # assuming we want to use docker images built locally
 # but not published to dockerhub.
